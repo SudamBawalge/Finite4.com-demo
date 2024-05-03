@@ -1,6 +1,6 @@
- 
+  
          body{
-            font-family: 'Poppins', sans-serif;
+            font-family: Poppins, sans-serif;
              margin: 0;
             padding: 0;
             
@@ -10,6 +10,7 @@
              max-width: 1360px;
              margin: 0 auto;
              position: relative;
+             background-color: #eee;
              /* Add position relative */
            }
             
@@ -373,7 +374,9 @@
     /* Add custom navigation button styles */
      
     * {box-sizing: border-box}
-    body {font-family: Verdana, sans-serif; margin:0}
+    .body {font-family: Verdana, sans-serif; margin:0 
+         
+    }
     .mySlides {display: none}
     img {vertical-align: middle;}
     
@@ -485,6 +488,21 @@
                 margin-left: 10px;
             }
 
+            .items {
+              width: 90%;
+              margin: 0 auto;
+              margin-top: 0px;
+              display: flex;
+              flex-direction: column;
+            }
+            .items_container {
+              background-color: #0370c0;
+              height: 900px;
+              margin-top: 28px;
+              margin-left: 0px;
+            }
+
+
             nav ul {
                 margin-left: 10px;
             }
@@ -499,6 +517,12 @@
             .image {
                 margin-top: 20px;
             }
+            .service_card img {
+              width: 100%;
+              height: auto;
+              margin-top: 17;
+              margin-left: 30px;
+          }
             .row {
                 flex-direction: column;
                 align-items: center;
@@ -508,7 +532,8 @@
                 
             }
             .service_card {
-                width: 90%;
+                width: 100%;
+                margin-left: -30px;
             }
             .service_button {
                 margin-left: 31%;
@@ -607,8 +632,8 @@
       }
       
       .about-us{
-        width: 30%;
-      margin-left: 20px;
+        width: 97%;
+      margin-left: 3px;
         text-align: left;
       }
       
@@ -658,9 +683,19 @@
           margin-left: 0px;
         }
       
-      .about-us {
-        display: none; /* Hide all sections except contact in mobile view */
-      }
+      
+         
+      
+      .Anniual_Reiw {
+        padding: 0px;
+        margin-left: 523px;
+        margin-left: 145px;
+        margin-top: 42px;
+        font-size: -1.3333333333rem;
+        display: block;
+        float: left;
+        clear: both;
+        line-height: 20px;
       .contact {
         display: block; /* Display only contact section */
         width: 91%; /* Set full width for contact section */
@@ -669,4 +704,4 @@
           text-align: left;
       }
       }
-      
+    }
